@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="bangunan" id="bangunan">
+	<SimpleField name="ID" type="float"></SimpleField>
+	<SimpleField name="auxiliary_storage_labeling_positionx" type="float"></SimpleField>
+	<SimpleField name="auxiliary_storage_labeling_positiony" type="float"></SimpleField>
+	<SimpleField name="auxiliary_storage_labeling_lineanchorpercent" type="float"></SimpleField>
+	<SimpleField name="auxiliary_storage_labeling_lineanchorclipping" type="string"></SimpleField>
+	<SimpleField name="auxiliary_storage_labeling_lineanchortype" type="string"></SimpleField>
+	<SimpleField name="auxiliary_storage_labeling_lineanchortextpoint" type="string"></SimpleField>
+</Schema>
+<Folder><name>bangunan</name>
+  <Placemark>
+	<name>CABIN</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bangunan">
+		<SimpleData name="ID">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>101.12925257362,4.56141408635776 101.129253751109,4.56145329268002 101.129350392403,4.56145031283362 101.129347399123,4.56133326295536 101.129160420262,4.56133327481151 101.129160261678,4.5614140507893 101.12925257362,4.56141408635776</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>T.REHAT</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bangunan">
+		<SimpleData name="ID">2</SimpleData>
+		<SimpleData name="auxiliary_storage_labeling_positionx">101.129429478321</SimpleData>
+		<SimpleData name="auxiliary_storage_labeling_positiony">4.56140117497316</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>101.129396195524,4.56143916212181 101.129487801765,4.5614299064183 101.129481664551,4.56136966925363 101.129389114733,4.56137892495791 101.129396195524,4.56143916212181</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>PONDOK</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bangunan">
+		<SimpleData name="ID">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>101.129431933825,4.56125729925049 101.129458044736,4.56125731505871 101.129458044736,4.56122438129125 101.129431928539,4.56122437075245 101.129431933825,4.56125729925049</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>PONDOK</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bangunan">
+		<SimpleData name="ID">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>101.129220680988,4.56125842163327 101.129245562871,4.56125025405909 101.129236431056,4.56121903548198 101.129211720974,4.5612271951524 101.129220680988,4.56125842163327</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>PONDOK 3</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>101.12911287383,4.56045491965834 101.129138841232,4.56045492085082 101.129138843924,4.56042196961301 101.129112873531,4.5604219708055 101.12911287383,4.56045491965834</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>PONDOK 4</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>101.129378251365,4.56039388369747 101.129378251366,4.56042683314784 101.129404221161,4.56042683195536 101.129404222656,4.56039388339935 101.129378251365,4.56039388369747</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
